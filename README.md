@@ -11,3 +11,6 @@
 在线编辑公式--https://www.runoob.com/try/runcode.php?filename=helloworld&type=c  
 首先学习c语言编程基础--(https://www.runoob.com/cprogramming/c-tutorial.html)  
 在完成上述编程基础后开始对c语言数据结构的学习--(https://www.runoob.com/c-dsa/c-dsa-tutorial.html)  
+
+###c语言基础编程  
+宏定义 宏在编译前由预处理器进行文本替换，不占用运行时内存，
