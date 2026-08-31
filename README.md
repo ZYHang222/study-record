@@ -7,6 +7,7 @@
 3、学习并使用实时操作系统----rtos从freetos  
 4、系统架构师--嵌入式Linux/FPGA  
 
-## C语言学习[链接](https://www.runoob.com/)
+## C语言学习[链接](https://www.runoob.com/)  
+在线编辑公式--https://www.runoob.com/try/runcode.php?filename=helloworld&type=c  
 首先学习c语言编程基础--(https://www.runoob.com/cprogramming/c-tutorial.html)  
 在完成上述编程基础后开始对c语言数据结构的学习--(https://www.runoob.com/c-dsa/c-dsa-tutorial.html)  
