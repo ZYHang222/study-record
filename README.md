@@ -84,7 +84,7 @@
   scanf() 函数用于从标准输入设备（通常是键盘）读取格式化的输入
 * C文件读写：调用fopen( const char *filename, const char *mode );
   关闭 fclose( FILE *fp );写入fputc( int c, FILE *fp );
-  数据读写流程图
-  
+  ![数据读写流程图](D:\YAN\study\study-record\images\fread-fwrite-flow.svg)
+
   
   
