@@ -43,6 +43,7 @@
     
     "Hello" 在内存中实际占 6 个字节：'H'、'e'、'l'、'l'、'o'、'\0'。
     字符串字面量存储在只读内存区域，不可修改；若需修改，应将其复制到字符数组中。
+
     两个相邻的字符串字面量会被编译器自动拼接："Hello, " "World!" 等同于 "Hello, World!"。
     字符 'A'（字符常量）和字符串 "A"（字符串字面量）是不同的，后者包含 'A' 和 '\0' 两个字符。
 
@@ -72,6 +73,25 @@
     为了使用指向该结构的指针访问结构的成员，您必须使用 -> 运算符，如下所示：
 
     struct_pointer->title;
+* C 结构体：
+truct 语句定义了一个包含多个成员的新的数据类型，struct 语句的格式如下：
+
+            struct tag {
+                member-list
+                member-list
+                member-list  
+                ...
+            } variable-list ;
+    tag 是结构体标签。
+    member-list 是标准的变量定义，比如 int i; 或者 float f;，或者其他有效的变量定义。
+    variable-list 结构变量，定义在结构的末尾，最后一个分号之前，您可以指定一个或多个结构变量。
+    在一般情况下，tag、member-list、variable-list 这 3 部分至少要出现 2 个。
+    指向结构的指针：struct Books *struct_pointer;
+    struct_pointer = &Book1;
+    为了使用指向该结构的指针访问结构的成员，您必须使用 -> 运算符，如下所示：
+
+    struct_pointer->title;
+
 * typedef vs #define：
 
     #define 是 C 指令，用于为各种数据类型定义别名，与 typedef 类似，但是它们有以下几点不同：
@@ -84,7 +104,7 @@
   scanf() 函数用于从标准输入设备（通常是键盘）读取格式化的输入
 * C文件读写：调用fopen( const char *filename, const char *mode );
   关闭 fclose( FILE *fp );写入fputc( int c, FILE *fp );
-  ![数据读写流程图](D:\YAN\study\study-record\images\fread-fwrite-flow.svg)
+  ![数据读写流程图](D:\YAN\study\study-record\images\fread-fwrite-flow.jpg)
 
   
   
