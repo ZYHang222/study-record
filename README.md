@@ -79,4 +79,12 @@
     typedef 仅限于为**类型定义符号名称**，#define 不仅可以为类型定义别名，也能为数值定义别名，比如您可以定义 1 为 ONE。
   
     typedef 是由编译器执行解释的，#define 语句是由预编译器进行处理的。
-* 
+* C 输入 & 输出：
+  printf() 函数用于将格式化的数据输出到标准输出设备
+  scanf() 函数用于从标准输入设备（通常是键盘）读取格式化的输入
+* C文件读写：调用fopen( const char *filename, const char *mode );
+  关闭 fclose( FILE *fp );写入fputc( int c, FILE *fp );
+  数据读写流程图
+  
+  
+  
