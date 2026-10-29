@@ -91,7 +91,7 @@ truct 语句定义了一个包含多个成员的新的数据类型，struct 语�
     为了使用指向该结构的指针访问结构的成员，您必须使用 -> 运算符，如下所示：
 
     struct_pointer->title;
-
+  **共用体**是一种特殊的数据类型，允许您在相同的内存位置存储不同的数据类型。您可以定义一个带有多成员的共用体，但是任何时候只能有一个成员带有值。共用体提供了一种使用相同的内存位置的有效方式。
 * typedef vs #define：
 
     #define 是 C 指令，用于为各种数据类型定义别名，与 typedef 类似，但是它们有以下几点不同：
@@ -102,9 +102,15 @@ truct 语句定义了一个包含多个成员的新的数据类型，struct 语�
 * C 输入 & 输出：
   printf() 函数用于将格式化的数据输出到标准输出设备
   scanf() 函数用于从标准输入设备（通常是键盘）读取格式化的输入
+
 * C文件读写：调用fopen( const char *filename, const char *mode );
   关闭 fclose( FILE *fp );写入fputc( int c, FILE *fp );
   ![数据读写流程图](D:\YAN\study\study-record\images\fread-fwrite-flow.jpg)
+* C 可变参数：声明方式为：
+    int func_name(int arg1, ...);
+    其中，省略号 ... 表示可变参数列表。
+    请注意，函数 func() 最后一个参数写成省略号，即三个点号（...），省略号之前的那个参数是 int，代表了要传递的可变参数的总数。
 
-  
+    需要使用 stdarg.h 头文件
+    
   
