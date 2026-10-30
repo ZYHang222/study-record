@@ -131,7 +131,7 @@ truct 语句定义了一个包含多个成员的新的数据类型，struct 语�
 
 * C文件读写：调用fopen( const char *filename, const char *mode );
   关闭 fclose( FILE *fp );写入fputc( int c, FILE *fp );
-  ![数据读写流程图](D:\YAN\study\study-record\images\fread-fwrite-flow.jpg)
+  ![数据读写流程图](images/fread-fwrite-flow.jpg)
 * C 可变参数：声明方式为：
     int func_name(int arg1, ...);
     其中，省略号 ... 表示可变参数列表。
