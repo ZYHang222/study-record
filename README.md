@@ -211,8 +211,9 @@ truct 语句定义了一个包含多个成员的新的数据类型，struct 语�
   /* 链表节点结构体
    data：数据域，存储整型数据
    next：指针域，指向下一个同类型节点 */
-   
+
   struct Node {
       int data;
+      
       struct Node* next;
   };
