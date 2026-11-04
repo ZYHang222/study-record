@@ -208,13 +208,22 @@ truct 语句定义了一个包含多个成员的新的数据类型，struct 语�
     | 二分查找 | O(log n) | 要求数组已排序 |
 * 数据结构 - 链表
   链表（Linked List）是一种由若干个节点通过指针依次连接而成的线性数据结构。与数组不同，链表中的元素在内存中并不要求连续存放。
+  ![alt text](images/06-list-node-structure-1.svg)
   /* 链表节点结构体
    data：数据域，存储整型数据
    next：指针域，指向下一个同类型节点 */
 
   struct Node {
-    
+
       int data;
 
       struct Node* next;
+  };
+* 数据结构 - 双向链表
+  双向链表（Doubly Linked List）是对单链表的扩展，每个节点除了指向下一个节点之外，还额外保存一个指向前一个节点的指针，从而形成双向可达的链式结构。
+![alt text](images/image.png)
+  struct Node {
+      int data;              /* 数据域 */
+      struct Node* prev;     /* 前驱指针：指向前一个节点 */
+      struct Node* next;     /* 后继指针：指向后一个节点 */
   };
