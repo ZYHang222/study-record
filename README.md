@@ -46,7 +46,7 @@
       - [数据结构 - 哈希表](#数据结构---哈希表)
       - [数据结构 - 堆](#数据结构---堆)
       - [数据结构 - 图](#数据结构---图)
-    - [ASCII 码表（0～127）](#ascii-码表0127)
+    - [ASCII 码表（0～127）](#ascii-码表-0-127)
 
 ## C语言学习[链接](https://www.runoob.com/)  
 首先学习c语言编程基础--(https://www.runoob.com/cprogramming/c-tutorial.html)  
@@ -503,7 +503,7 @@ C 语言提供了一些函数和运算符，使得程序员可以对内存进行
   ![alt text](images/image8.png)
 
 
-### ASCII 码表（0～127）
+### ASCII 码表 0-127
 
   | ASCII值 | 控制字符 | ASCII值 | 控制字符 | ASCII值 | 控制字符 | ASCII值 | 控制字符 |
   |---:|---|---:|---|---:|---|---:|---|
