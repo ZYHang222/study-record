@@ -144,7 +144,7 @@
     训练重点：字符编码与跨字符串异或
     原题：https://leetcode.cn/problems/find-the-difference/
 
-[ ] 24. 191. 位1的个数（简单）
+[+] 24. 191. 位1的个数（简单）
     训练重点：逐位检查、移位与位计数
     原题：https://leetcode.cn/problems/number-of-1-bits/
 
