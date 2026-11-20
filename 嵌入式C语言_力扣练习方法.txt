@@ -148,7 +148,7 @@
     训练重点：逐位检查、移位与位计数
     原题：https://leetcode.cn/problems/number-of-1-bits/
 
-[ ] 25. 461. 汉明距离（简单）
+[+ ] 25. 461. 汉明距离（简单）
     训练重点：异或识别不同位
     原题：https://leetcode.cn/problems/hamming-distance/
 
@@ -160,7 +160,7 @@
     训练重点：有效位掩码与按位取反
     原题：https://leetcode.cn/problems/number-complement/
 
-[ ] 28. 面试题 05.06. 整数转换（简单）
+[- ] 28. 面试题 05.06. 整数转换（简单）
     训练重点：32位有符号输入的无符号位模式比较
     原题：https://leetcode.cn/problems/convert-integer-lcci/
 
